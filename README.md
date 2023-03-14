@@ -83,3 +83,54 @@ a = 100
 b = 200
 good = a + b
 print(a, '+', b, '=', good)
+good = a - b
+print(a, '-', b, '=', good)
+good = a * b
+print(a, '*', b, '=', good)
+good = a / b
+print(a, '/', b, '=', good)
+
+#### input() 함수 이용 계산기
+
+a = int(input("첫번째 숫자를 입력해 주세요 :"))
+b = int(input("두번째 숫자를 입력해 주세요 :"))
+result = a + b
+print(a, '+', b, '=', result)
+result = a - b
+print(a, '-', b, '=', result)
+result = a * b
+print(a, '*', b, '=', result)
+result = a / b
+print(a, '/', b, '=', result)
+result = a ** b
+print(a, '**', b, '=', result)
+result = a // b
+print(a, '//', b, '=', result)
+result = a % b
+print(a, '%', b, '=', result)
+
+num1 = input("숫자입력1 : ")
+num2 = input("숫자입력2 : ")
+result = num1 + num2
+print(type(num1))
+print(num1, '+', num2, '=', result)
+
+quiz 전화번호, 이름, 무게를 입력받아 출력 :
+입력한 내용은 이름 "oo", 전화번호 "oo"입니다.
+무게는 입력한 g수 x 10원 = 산출금액 출력
+
+num1 = input("전화번호 : ")
+num2 = input("이름 : ")
+num3 = int(input("무게 : "))
+a = 10
+result = num3 * 10
+print("입력한 내용은 이름 : ", num2,"입니다.")
+print("전화번호 : ", num1 , "입니다.")
+print("무게는 ",num3, "* 10 =", result , "입니다.")
+
+전화번호 : 01029851581
+이름 : 김재성
+무게 : 30
+입력한 내용은 이름 :  김재성 입니다.
+전화번호 :  01029851582 입니다.
+무게는  30 * 10 = 300 입니다
